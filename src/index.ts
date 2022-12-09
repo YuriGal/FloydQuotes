@@ -1,3 +1,5 @@
+// <a rel="nofollow me" href="https://botsin.space/@PinkFloydHourly">Mastodon</a>
+
 import generator from 'megalodon';
 import fs from 'fs';
 import { parse } from 'csv-parse/sync'
