@@ -5,7 +5,7 @@ import fs from 'fs';
 import { parse } from 'csv-parse/sync'
 
 const BASE_URL: string = 'https://botsin.space'
-const access_token: string = process.env.API_TOKEN!
+const access_token: string = process.env.MASTO_TOKEN!
 
 const client = generator('mastodon', BASE_URL, access_token)
 
